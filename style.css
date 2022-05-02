@@ -1,0 +1,43 @@
+button{
+    background-color: cadetblue;
+    color: white;
+    padding: 15px;
+    border-radius: 11px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.books-container{
+    height: 555px;
+    width: 755px;
+    border: 1px solid black;
+}
+
+.modal-container{
+    display: none;
+    height: 555px;
+    width: 555px;
+}
+.modal{
+    height: 555px;
+    width: 555px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+   
+}
+
+.modal .close-modal{
+    margin-right:0px;
+    margin-left: 95%;
+}

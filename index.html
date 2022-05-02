@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Library</h1>
+        <div id="books-container"></div>
+        <br>
+        <button id="newbook-button">New Book</button>
+
+        <div class="modal-container">
+            <div class="modal">
+                <div class="close-modal">X</div>
+    
+                <h4>Book</h4>
+                <input id="book-title" type="text" placeholder="Title">
+                <input id="book-author" type="text" placeholder="Author">
+                <input id="book-pages" type="text" placeholder="Pages">
+    
+                <label for="read">Have you read it?</label>
+                <select id="read" name="read">
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+                <button id="addbook-button">Add</button>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
